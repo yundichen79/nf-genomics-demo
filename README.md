@@ -1,4 +1,4 @@
-# NF-Genomics-Demo: RNA-seq Preprocessing Pipeline (Nextflow + AWS Batch)
+# RNA-seq Preprocessing Pipeline (Nextflow + AWS Batch)
 
 This repository contains a simple RNA-seq preprocessing pipeline built with **Nextflow DSL2**, designed to run both locally (via Docker) and on the cloud (AWS Batch + S3).
 
@@ -18,8 +18,8 @@ The workflow performs the following steps:
 ## Repository Structure
 
     nf-genomics-demo/
-    ├── data/                # paired-end FASTQ input files
-    ├── ref/                 # reference genome FASTA (and related files)
+    ├── data/                # paired-end FASTQ input files of SRR34066748
+    ├── ref/                 # reference genome FASTA (E. coil assembled genome ASM584v2)
     ├── modules/             # Nextflow sub-modules:
     │     ├── fastqc.nf
     │     ├── trim.nf
