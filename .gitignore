@@ -1,0 +1,8 @@
+# Ignore raw sequencing data
+data/*.fastq
+data/*.fastq.gz
+
+# Ignore Nextflow work dirs & results
+work/
+results/
+.nextflow*
