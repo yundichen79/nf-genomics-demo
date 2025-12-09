@@ -3,7 +3,7 @@
 nextflow.enable.dsl = 2
 
 /*
- * Simple RNA-seq pipeline:
+ * Simple WGS pipeline:
  *  1. Build genome index (hisat2-build)
  *  2. FastQC on raw reads
  *  3. Trim reads with fastp
